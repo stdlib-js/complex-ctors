@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/complex-ctors",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Complex number constructors.",
   "license": "Apache-2.0",
   "author": {
