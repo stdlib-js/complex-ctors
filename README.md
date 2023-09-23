@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-ctors@deno/mod.js';
+import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-ctors@v0.1.0-deno/mod.js';
 ```
 
 #### ctors( dtype )
@@ -98,7 +98,7 @@ var ctor = ctors( 'complex' );
 
 ```javascript
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-dtypes@deno/mod.js';
-import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-ctors@deno/mod.js';
+import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-ctors@v0.1.0-deno/mod.js';
 
 var DTYPES = dtypes();
 var ctor;
