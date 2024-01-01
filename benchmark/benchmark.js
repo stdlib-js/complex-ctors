@@ -20,7 +20,7 @@
 
 // MODULES //
 
-var bench = require( '@stdlib/bench' );
+var bench = require( '@stdlib/bench-harness' );
 var dtypes = require( '@stdlib/complex-dtypes' );
 var isFunction = require( '@stdlib/assert-is-function' );
 var pkg = require( './../package.json' ).name;
