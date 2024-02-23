@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-ctors@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/complex-ctors/tags). For example,
+
+```javascript
 import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-ctors@v0.2.1-deno/mod.js';
 ```
 
@@ -98,7 +103,7 @@ var ctor = ctors( 'complex' );
 
 ```javascript
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-dtypes@deno/mod.js';
-import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-ctors@v0.2.1-deno/mod.js';
+import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-ctors@deno/mod.js';
 
 var DTYPES = dtypes();
 var ctor;
