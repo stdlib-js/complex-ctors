@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/complex-ctors",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "description": "Complex number constructors.",
   "license": "Apache-2.0",
   "author": {
@@ -37,12 +37,12 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/complex-float32": "^0.2.1",
-    "@stdlib/complex-float64": "^0.2.1"
+    "@stdlib/complex-float32-ctor": "^0.0.2",
+    "@stdlib/complex-float64-ctor": "^0.0.2"
   },
   "devDependencies": {
-    "@stdlib/assert-is-function": "^0.2.1",
-    "@stdlib/complex-dtypes": "^0.2.1",
+    "@stdlib/assert-is-function": "^0.2.2",
+    "@stdlib/complex-dtypes": "^0.2.2",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
