@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-ctors@esm/index.mjs';
+import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-ctors@v0.2.2-esm/index.mjs';
 ```
 
 #### ctors( dtype )
@@ -103,7 +103,7 @@ var ctor = ctors( 'complex' );
 <script type="module">
 
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-dtypes@esm/index.mjs';
-import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-ctors@esm/index.mjs';
+import ctors from 'https://cdn.jsdelivr.net/gh/stdlib-js/complex-ctors@v0.2.2-esm/index.mjs';
 
 var DTYPES = dtypes();
 var ctor;
